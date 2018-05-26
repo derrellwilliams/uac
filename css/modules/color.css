@@ -1,0 +1,16 @@
+/* Colors */
+
+
+
+/* Text Colors */
+
+.text-black { color: #222222; }
+.text-gray  { color: #666666; }
+.text-red   { color: red; }
+
+/* Background Colors */
+
+.bg-gray  { background-color: #f1f1f1; }
+.bg-black { background-color: #222222; }
+.bg-red   { background-color: red; }
+
