@@ -1,6 +1,6 @@
 /* Basscss Typography */
 
-h1, h2, h3, h4, h5, h6, p { font-family: helvetica; }
+h1, h2, h3, h4, h5, h6, p, li { font-family: helvetica; }
 
 .font-family-inherit { font-family: inherit }
 .font-size-inherit { font-size: inherit }
