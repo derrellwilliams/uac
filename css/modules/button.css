@@ -2,7 +2,7 @@
 
 
 .primary-button {
-    background-color: #B7251F;
+    background-color: var(--red);
     border: none;
     border-radius: 30px;
     color: white;
@@ -15,7 +15,7 @@
 
 .secondary-button {
     background-color: #ffffff;
-    border: 2px solid #222222;;
+    border: 2px solid var(--black);
     border-radius: 30px;
     color: #222222;
     padding: 15px 32px;
@@ -24,4 +24,11 @@
     display: inline-block;
     font-size: 14px;
     font-weight: 700;
+}
+
+.secondary-button:hover, .primary-button:hover {
+    background-color: var(--black);
+    color: #ffffff;
+    webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
 }

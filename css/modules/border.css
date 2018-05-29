@@ -3,7 +3,7 @@
 .border {
   border-style: solid;
   border-width: var(--border-width);
-  border-color: #dcdcdc;
+  border-color: var(--border-gray);
 }
 
 .border-top {
@@ -40,6 +40,5 @@
 
 :root {
   --border-width: 1px;
-  --border-radius: 3px;
+  --border-radius: 6px;
 }
-

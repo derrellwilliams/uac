@@ -1,16 +1,17 @@
 /* Colors */
 
+.text-black { color: var(--black) }
+.text-gray  { color: var(--gray) }
+.text-red   { color: var(--red) }
+.bg-gray    { background-color: var(--bg-gray) }
+.bg-red     { color: var(--red) }
 
-
-/* Text Colors */
-
-.text-black { color: #222222; }
-.text-gray  { color: #666666; }
-.text-red   { color: #B7251F; }
-
-/* Background Colors */
-
-.bg-gray  { background-color: #f1f1f1; }
-.bg-black { background-color: #222222; }
-.bg-red   { background-color: red; }
+:root {
+    --black:       #222222;
+    --gray:   	   #666666; 
+    --bg-gray:     #f1f1f1;
+    --red:         #B7251F;
+    --black:       #222222;
+    --border-gray: #dcdcdc;
+}
 

@@ -1,6 +1,6 @@
 /* Basscss Typography */
 
-h1, h2, h3, h4, h5, h6, p, li, .text_01, .text_02, .text_03, .text_04, .button, .secondary-button { 
+h1, h2, h3, h4, h5, h6, p, li, .text_01, .text_02, .text_03, .text_04, .button, .primary-button, .secondary-button { 
   font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
   color: #222222; 
 }
@@ -70,7 +70,7 @@ h6 {
 .font-family-inherit { font-family: inherit }
 .font-size-inherit { font-size: inherit }
 .text-decoration-none { text-decoration: none }
-.red-underline { border-bottom: 4px solid #B7251F;}
+.red-underline { border-bottom: 4px solid var(--red);}
 
 .bold    { font-weight: 700;}
 .regular { font-weight: normal }
