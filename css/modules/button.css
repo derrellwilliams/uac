@@ -1,6 +1,5 @@
 /* Buttons */
 
-
 .primary-button {
     background-color: var(--red);
     border: none;
@@ -17,7 +16,7 @@
     background-color: #ffffff;
     border: 2px solid var(--black);
     border-radius: 30px;
-    color: #222222;
+    color: var(--black);
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -32,3 +31,4 @@
     webkit-transition-duration: 0.2s; /* Safari */
     transition-duration: 0.2s;
 }
+
