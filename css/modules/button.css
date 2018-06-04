@@ -1,34 +1,32 @@
 /* Buttons */
-
 .primary-button {
-    background-color: var(--red);
-    border: none;
-    border-radius: 30px;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-}
+  background-color: red;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px; }
 
 .secondary-button {
-    background-color: #ffffff;
-    border: 2px solid var(--black);
-    border-radius: 30px;
-    color: var(--black);
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    font-weight: 700;
-}
+  background-color: #ffffff;
+  border: 2px solid black;
+  border-radius: 30px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700; }
 
 .secondary-button:hover, .primary-button:hover {
-    background-color: var(--black);
-    color: #ffffff;
-    webkit-transition-duration: 0.2s; /* Safari */
-    transition-duration: 0.2s;
-}
+  background-color: black;
+  color: white;
+  webkit-transition-duration: 0.2s;
+  /* Safari */
+  transition-duration: 0.2s; }
 
+/*# sourceMappingURL=button.css.map */

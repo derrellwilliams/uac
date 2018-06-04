@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,WAAW;AAEX,eAAgB;EAAE,cAAc,EAAE,QAAQ;;AAC1C,UAAgB;EAAE,cAAc,EAAE,GAAG;;AACrC,aAAgB;EAAE,cAAc,EAAE,MAAM;;AACxC,aAAgB;EAAE,cAAc,EAAE,MAAM",
+"sources": ["../../scss/modules/align.scss"],
+"names": [],
+"file": "align.css"
+}

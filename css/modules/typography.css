@@ -1,106 +1,76 @@
-/* Basscss Typography */
+/*
+Error: Undefined variable: "$red".
+        on line 73 of scss/modules/typography.scss
 
-h1, h2, h3, h4, h5, h6, p, li, .text_01, .text_02, .text_03, .text_04, .button, .primary-button, .secondary-button { 
-  font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
-  color: #222222; 
-}
+68: }
+69: 
+70: .font-family-inherit { font-family: inherit }
+71: .font-size-inherit { font-size: inherit }
+72: .text-decoration-none { text-decoration: none }
+73: .red-underline { border-bottom: 4px solid $red;}
+74: 
+75: .bold    { font-weight: 700;}
+76: .regular { font-weight: normal }
+77: .italic  { font-style: italic }
+78: .caps    { text-transform: uppercase; letter-spacing: var(--caps-letter-spacing); }
 
-h1 { 
-  font-size: 44px;
-  font-weight: 700; 
-}
-
-h2 { 
-  font-size: 36px;
-  font-weight: 700; 
-}
-
-h3 { 
-  font-size: 30px;
-  font-weight: 700; 
-}
-
-h4 { 
-  font-size: 26px;
-  font-weight: 700; 
-}
-
-h5 { 
-  font-size: 20px;
-  font-weight: 700; 
-}
-
-h6 { 
-  font-size: 18px;
-  font-weight: 700; 
-}
-
-.text_01 {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 18px;
-}
-
-.text_02 {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-}
-
-.text_03 {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 24px;
-}
-
-.text-caption {
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 22px;
-}
-
-.bold {
-  font-weight: 700;
-}
-
-.prose {
-  line-height: 26px;
-}
-
-.font-family-inherit { font-family: inherit }
-.font-size-inherit { font-size: inherit }
-.text-decoration-none { text-decoration: none }
-.red-underline { border-bottom: 4px solid var(--red);}
-
-.bold    { font-weight: 700;}
-.regular { font-weight: normal }
-.italic  { font-style: italic }
-.caps    { text-transform: uppercase; letter-spacing: var(--caps-letter-spacing); }
-
-.left-align   { text-align: left }
-.center       { text-align: center }
-.right-align  { text-align: right }
-.justify      { text-align: justify }
-
-.nowrap { white-space: nowrap }
-.break-word { word-wrap: break-word }
-
-.line-height-1 { line-height: var(--line-height-1) }
-.line-height-2 { line-height: var(--line-height-2) }
-.line-height-3 { line-height: var(--line-height-3) }
-.line-height-4 { line-height: var(--line-height-4) }
-
-.list-style-none { list-style: none }
-.underline { text-decoration: underline }
-
-.truncate {
-  max-width: 100%;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.list-reset {
-  list-style: none;
-  padding-left: 0;
-}
+Backtrace:
+scss/modules/typography.scss:73
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/script/tree/node.rb:50:in `perform'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/script/tree/list_literal.rb:75:in `block in _perform'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/script/tree/list_literal.rb:75:in `map'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/script/tree/list_literal.rb:75:in `_perform'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/script/tree/node.rb:50:in `perform'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/stack.rb:79:in `block in with_base'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/stack.rb:135:in `with_frame'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/stack.rb:79:in `with_base'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:444:in `map'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/stack.rb:79:in `block in with_base'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/stack.rb:135:in `with_frame'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/stack.rb:79:in `with_base'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:161:in `visit'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/plugin/compiler.rb:320:in `block in watch'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$red\".\A         on line 73 of scss/modules/typography.scss\A \A 68: }\A 69: \A 70: .font-family-inherit { font-family: inherit }\A 71: .font-size-inherit { font-size: inherit }\A 72: .text-decoration-none { text-decoration: none }\A 73: .red-underline { border-bottom: 4px solid $red;}\A 74: \A 75: .bold    { font-weight: 700;}\A 76: .regular { font-weight: normal }\A 77: .italic  { font-style: italic }\A 78: .caps    { text-transform: uppercase; letter-spacing: var(--caps-letter-spacing); }"; }

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,YAAY;AASZ,aAAa",
+"sources": ["../../scss/modules/variables.scss"],
+"names": [],
+"file": "variables.css"
+}

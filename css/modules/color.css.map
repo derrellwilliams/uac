@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,YAAY;AASZ,WAAY;EAAE,KAAK,EAPX,OAAO;;AAQf,UAAY;EAAE,KAAK,EAPZ,OAAO;;AAQd,SAAY;EAAE,KAAK,EAPZ,OAAO;;AAQd,WAAY;EAAE,KAAK,EANX,OAAO;;AAOf,QAAY;EAAE,gBAAgB,EANpB,OAAO;;AAOjB,OAAY;EAAE,KAAK,EAVZ,OAAO",
+"sources": ["../../scss/modules/color.scss"],
+"names": [],
+"file": "color.css"
+}
