@@ -1,6 +1,6 @@
 /* Basscss Typography */
 
-h1, h2, h3, h4, h5, h6, p, li, .text_01, .text_02, .text_03, .text_04, .button, .primary-button, .secondary-button { 
+h1, h2, h3, h4, h5, h6, p, li, .text_01, .text_02, .text_03, .text_04, .button, .primary-button, .secondary-button, .text-link { 
   font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
 }
 
@@ -62,9 +62,7 @@ h6 {
   font-weight: 700;
 }
 
-.prose {
-  line-height: 26px;
-}
+.prose { line-height: 26px; }
 
 .font-family-inherit { font-family: inherit }
 .font-size-inherit { font-size: inherit }
@@ -75,11 +73,6 @@ h6 {
 .regular { font-weight: normal }
 .italic  { font-style: italic }
 .caps    { text-transform: uppercase; letter-spacing: var(--caps-letter-spacing); }
-
-.left-align   { text-align: left }
-.center       { text-align: center }
-.right-align  { text-align: right }
-.justify      { text-align: justify }
 
 .nowrap { white-space: nowrap }
 .break-word { word-wrap: break-word }
@@ -97,4 +90,23 @@ h6 {
 .list-reset {
   list-style: none;
   padding-left: 0;
+}
+
+.left-align   { text-align: left }
+.center       { text-align: center }
+.right-align  { text-align: right }
+.justify      { text-align: justify }
+
+@media screen and (min-width: 250px) {
+.sm-left-align   { text-align: left }
+.sm-center       { text-align: center }
+.sm-right-align  { text-align: right }
+.sm-justify      { text-align: justify }
+}
+
+@media screen and (min-width: 800px) {
+.md-left-align   { text-align: left }
+.md-center       { text-align: center }
+.md-right-align  { text-align: right }
+.md-justify      { text-align: justify }
 }
