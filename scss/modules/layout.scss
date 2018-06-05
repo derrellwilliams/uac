@@ -29,21 +29,30 @@
 .max-width-3 { max-width: 60% }
 .max-width-4 { max-width: 80% }
 
-//Custom query to limit how wide things get on large screens
-@media screen and (min-width: 1580px){
-	.max-width-4 {max-width:70%;}
+@media screen and (min-width: 250px) {
+	.sm-max-width-1 { max-width: 20% }
+	.sm-max-width-2 { max-width: 40% }
+	.sm-max-width-3 { max-width: 60% }
+	.sm-max-width-4 { max-width: 88% }
 }
 
-//Custom query to eliminate too much left and right space on mobile sizes
-@media screen and (min-width: 250px){
-	.max-width-4 {max-width:88%;}
+@media screen and (min-width: 750px) {
+	.md-max-width-1 { max-width: 20% }
+	.md-max-width-2 { max-width: 40% }
+	.md-max-width-3 { max-width: 60% }
+	.md-max-width-4 { max-width: 80% }
 }
 
-//Custom query to make spacing nice on average desktop sizes
-@media screen and (min-width: 650px){
-	.max-width-4 {max-width:80%;}
+@media screen and (min-width: 1300px) {
+	.lg-max-width-1 { max-width: 20% }
+	.lg-max-width-2 { max-width: 40% }
+	.lg-max-width-3 { max-width: 60% }
+	.lg-max-width-4 { max-width: 80% }
 }
 
-
-
-
+@media screen and (min-width: 1580px) {
+	.lg-max-width-1   { max-width: 20% }
+	.lg-max-width-2   { max-width: 40% }
+	.lg-max-width-3   { max-width: 60% }
+	.x-lg-max-width-4 { max-width: 70% }
+}
