@@ -31,14 +31,17 @@
 .clearfix:after {
   clear: both; }
 
+.fit {
+  max-width: 100%; }
+
+.border-box {
+  box-sizing: border-box; }
+
 .left {
   float: left; }
 
 .right {
   float: right; }
-
-.fit {
-  max-width: 100%; }
 
 .max-width-1 {
   max-width: 20%; }
@@ -55,7 +58,11 @@
 @media screen and (min-width: 1580px) {
   .max-width-4 {
     max-width: 70%; } }
-.border-box {
-  box-sizing: border-box; }
+@media screen and (min-width: 250px) {
+  .max-width-4 {
+    max-width: 88%; } }
+@media screen and (min-width: 650px) {
+  .max-width-4 {
+    max-width: 80%; } }
 
 /*# sourceMappingURL=layout.css.map */

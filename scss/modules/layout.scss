@@ -17,21 +17,33 @@
 }
 .clearfix:after { clear: both }
 
+.fit { max-width: 100% }
+
+.border-box { box-sizing: border-box }
+
 .left  { float: left }
 .right { float: right }
-
-.fit { max-width: 100% }
 
 .max-width-1 { max-width: 20% }
 .max-width-2 { max-width: 40% }
 .max-width-3 { max-width: 60% }
 .max-width-4 { max-width: 80% }
 
+//Custom query to limit how wide things get on large screens
 @media screen and (min-width: 1580px){
 	.max-width-4 {max-width:70%;}
 }
 
+//Custom query to eliminate too much left and right space on mobile sizes
+@media screen and (min-width: 250px){
+	.max-width-4 {max-width:88%;}
+}
 
-.border-box { box-sizing: border-box }
+//Custom query to make spacing nice on average desktop sizes
+@media screen and (min-width: 650px){
+	.max-width-4 {max-width:80%;}
+}
+
+
 
 
