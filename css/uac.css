@@ -9,21 +9,32 @@
   color: #666666; }
 
 .text-red {
-  color: #B7251F; }
+  color: #CC332C; }
 
 .text-white {
-  color: #ffffff; }
+  color: #FFFFFF; }
 
 .bg-gray {
   background-color: #F0F0F0; }
 
 .bg-red {
-  color: #B7251F; }
+  color: #CC332C; }
+
+.bg-white {
+  background-color: #FFFFFF; }
+
+.bg-black {
+  background-color: #222222; }
+
+/* Buttons */
+.shadow {
+  -webkit-box-shadow: 0px 5px 15px -9px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 5px 15px -9px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 5px 15px -9px rgba(0, 0, 0, 0.2); }
 
 /* Basscss Typography */
 h1, h2, h3, h4, h5, h6, p, li, .text_01, .text_02, .text_03, .text_04, .button, .primary-button, .secondary-button {
-  font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
-  color: #222222; }
+  font-family: HelveticaNeue, Helvetica, Arial, sans-serif; }
 
 h1 {
   font-size: 44px;
@@ -52,7 +63,7 @@ h6 {
 .text_01 {
   font-size: 14px;
   font-weight: 400;
-  line-height: 18px; }
+  line-height: 20px; }
 
 .text_02 {
   font-size: 16px;
@@ -85,7 +96,7 @@ h6 {
   text-decoration: none; }
 
 .red-underline {
-  border-bottom: 4px solid #B7251F; }
+  border-bottom: 4px solid #CC332C; }
 
 .bold {
   font-weight: 700; }
@@ -824,7 +835,7 @@ h6 {
 .border {
   border-style: solid;
   border-width: 1px;
-  border-color: #dcdcdc; }
+  border-color: #DCDCDC; }
 
 .border-top {
   border-top-style: solid;
@@ -902,22 +913,23 @@ ul a {
 
 /* Buttons */
 .primary-button {
-  background-color: red;
+  background-color: #CC332C;
   border: none;
   border-radius: 30px;
-  color: white;
-  padding: 15px 32px;
+  color: #FFFFFF;
+  padding: 12px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 14px; }
+  font-size: 14px;
+  font-weight: 700; }
 
 .secondary-button {
   background-color: #ffffff;
   border: 2px solid black;
   border-radius: 30px;
   color: black;
-  padding: 15px 32px;
+  padding: 12px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -930,5 +942,8 @@ ul a {
   webkit-transition-duration: 0.2s;
   /* Safari */
   transition-duration: 0.2s; }
+
+.block-link {
+  display: block; }
 
 /*# sourceMappingURL=uac.css.map */

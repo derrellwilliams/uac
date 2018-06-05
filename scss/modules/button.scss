@@ -1,15 +1,16 @@
 /* Buttons */
 
 .primary-button {
-    background-color: red;
+    background-color: $red;
     border: none;
     border-radius: 30px;
-    color: white;
-    padding: 15px 32px;
+    color: $white;
+    padding: 12px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 14px;
+    font-weight: 700;
 }
 
 .secondary-button {
@@ -17,7 +18,7 @@
     border: 2px solid black;
     border-radius: 30px;
     color: black;
-    padding: 15px 32px;
+    padding: 12px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -30,4 +31,8 @@
     color: white;
     webkit-transition-duration: 0.2s; /* Safari */
     transition-duration: 0.2s;
+}
+
+.block-link {
+    display: block;
 }
