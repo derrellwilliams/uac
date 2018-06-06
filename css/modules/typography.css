@@ -2,7 +2,7 @@
 Error: Undefined variable: "$red".
         on line 74 of scss/modules/typography.scss
 
-69: .prose { line-height: 26px; }
+69: .prose { line-height: 1.86rem; }
 70: 
 71: .font-family-inherit { font-family: inherit }
 72: .font-size-inherit { font-size: inherit }
@@ -73,4 +73,4 @@ scss/modules/typography.scss:74
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$red\".\A         on line 74 of scss/modules/typography.scss\A \A 69: .prose { line-height: 26px; }\A 70: \A 71: .font-family-inherit { font-family: inherit }\A 72: .font-size-inherit { font-size: inherit }\A 73: .text-decoration-none { text-decoration: none }\A 74: .red-underline { border-bottom: 4px solid $red;}\A 75: \A 76: .bold    { font-weight: 700;}\A 77: .regular { font-weight: normal }\A 78: .italic  { font-style: italic }\A 79: .caps    { text-transform: uppercase; }"; }
+  content: "Error: Undefined variable: \"$red\".\A         on line 74 of scss/modules/typography.scss\A \A 69: .prose { line-height: 1.86rem; }\A 70: \A 71: .font-family-inherit { font-family: inherit }\A 72: .font-size-inherit { font-size: inherit }\A 73: .text-decoration-none { text-decoration: none }\A 74: .red-underline { border-bottom: 4px solid $red;}\A 75: \A 76: .bold    { font-weight: 700;}\A 77: .regular { font-weight: normal }\A 78: .italic  { font-style: italic }\A 79: .caps    { text-transform: uppercase; }"; }
