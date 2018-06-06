@@ -1,123 +1,72 @@
-/* Basscss Padding */
-.p0 {
-  padding: 0; }
+/*
+Error: Undefined variable: "$space-1".
+        on line 11 of scss/modules/padding.scss
 
-.pt0 {
-  padding-top: 0; }
+6: .pb0 { padding-bottom: 0 }
+7: .pl0 { padding-left: 0 }
+8: .px0 { padding-left: 0; padding-right:  0 }
+9: .py0 { padding-top: 0;  padding-bottom: 0 }
+10: 
+11: .p1  { padding:        $space-1 }
+12: .pt1 { padding-top:    $space-1 }
+13: .pr1 { padding-right:  $space-1 }
+14: .pb1 { padding-bottom: $space-1 }
+15: .pl1 { padding-left:   $space-1 }
+16: .py1 { padding-top:    $space-1; padding-bottom: $space-1 }
 
-.pr0 {
-  padding-right: 0; }
-
-.pb0 {
-  padding-bottom: 0; }
-
-.pl0 {
-  padding-left: 0; }
-
-.px0 {
-  padding-left: 0;
-  padding-right: 0; }
-
-.py0 {
-  padding-top: 0;
-  padding-bottom: 0; }
-
-.p1 {
-  padding: var(--space-1); }
-
-.pt1 {
-  padding-top: var(--space-1); }
-
-.pr1 {
-  padding-right: var(--space-1); }
-
-.pb1 {
-  padding-bottom: var(--space-1); }
-
-.pl1 {
-  padding-left: var(--space-1); }
-
-.py1 {
-  padding-top: var(--space-1);
-  padding-bottom: var(--space-1); }
-
-.px1 {
-  padding-left: var(--space-1);
-  padding-right: var(--space-1); }
-
-.p2 {
-  padding: var(--space-2); }
-
-.pt2 {
-  padding-top: var(--space-2); }
-
-.pr2 {
-  padding-right: var(--space-2); }
-
-.pb2 {
-  padding-bottom: var(--space-2); }
-
-.pl2 {
-  padding-left: var(--space-2); }
-
-.py2 {
-  padding-top: var(--space-2);
-  padding-bottom: var(--space-2); }
-
-.px2 {
-  padding-left: var(--space-2);
-  padding-right: var(--space-2); }
-
-.p3 {
-  padding: var(--space-3); }
-
-.pt3 {
-  padding-top: var(--space-3); }
-
-.pr3 {
-  padding-right: var(--space-3); }
-
-.pb3 {
-  padding-bottom: var(--space-3); }
-
-.pl3 {
-  padding-left: var(--space-3); }
-
-.py3 {
-  padding-top: var(--space-3);
-  padding-bottom: var(--space-3); }
-
-.px3 {
-  padding-left: var(--space-3);
-  padding-right: var(--space-3); }
-
-.p4 {
-  padding: var(--space-4); }
-
-.pt4 {
-  padding-top: var(--space-4); }
-
-.pr4 {
-  padding-right: var(--space-4); }
-
-.pb4 {
-  padding-bottom: var(--space-4); }
-
-.pl4 {
-  padding-left: var(--space-4); }
-
-.py4 {
-  padding-top: var(--space-4);
-  padding-bottom: var(--space-4); }
-
-.px4 {
-  padding-left: var(--space-4);
-  padding-right: var(--space-4); }
-
-:root {
-  --space-1: .5rem;
-  --space-2: 1rem;
-  --space-3: 2rem;
-  --space-4: 4rem; }
-
-/*# sourceMappingURL=padding.css.map */
+Backtrace:
+scss/modules/padding.scss:11
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/script/tree/node.rb:50:in `perform'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/stack.rb:79:in `block in with_base'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/stack.rb:135:in `with_frame'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/stack.rb:79:in `with_base'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:444:in `map'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/stack.rb:79:in `block in with_base'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/stack.rb:135:in `with_frame'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/stack.rb:79:in `with_base'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:161:in `visit'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/plugin/compiler.rb:320:in `block in watch'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$space-1\".\A         on line 11 of scss/modules/padding.scss\A \A 6: .pb0 { padding-bottom: 0 }\A 7: .pl0 { padding-left: 0 }\A 8: .px0 { padding-left: 0; padding-right:  0 }\A 9: .py0 { padding-top: 0;  padding-bottom: 0 }\A 10: \A 11: .p1  { padding:        $space-1 }\A 12: .pt1 { padding-top:    $space-1 }\A 13: .pr1 { padding-right:  $space-1 }\A 14: .pb1 { padding-bottom: $space-1 }\A 15: .pl1 { padding-left:   $space-1 }\A 16: .py1 { padding-top:    $space-1; padding-bottom: $space-1 }"; }
