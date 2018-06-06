@@ -1,5 +1,10 @@
 /* Buttons */
 
+a {
+    text-decoration: none;
+    color: $black;
+}
+
 .primary-button {
     background-color: $red;
     border: none;

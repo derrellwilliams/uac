@@ -26,16 +26,39 @@
 .bg-black {
   background-color: #222222; }
 
-/* Buttons */
+/* All of the css to style navbar */
+.dropdown {
+  position: relative;
+  display: inline-block; }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #FFFFFF;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1; }
+
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block; }
+
+.dropdown-content a:hover {
+  background-color: #F0F0F0; }
+
+.dropdown:hover .dropdown-content {
+  display: block; }
+
 .shadow {
   -webkit-box-shadow: 0px 5px 15px -9px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0px 5px 15px -9px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 5px 15px -9px rgba(0, 0, 0, 0.2); }
 
-@media screen and (min-width: 1086px) {
+@media screen and (min-width: 1060px) {
   .collapsed-navigation {
     display: none; } }
-@media screen and (max-width: 1085px) {
+@media screen and (max-width: 1059px) {
   .full-navigation {
     display: none; } }
 /* Basscss Typography */
@@ -983,6 +1006,10 @@ ul a {
   color: #222222; }
 
 /* Buttons */
+a {
+  text-decoration: none;
+  color: #222222; }
+
 .primary-button {
   background-color: #CC332C;
   border: none;

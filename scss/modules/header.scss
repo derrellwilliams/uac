@@ -1,4 +1,33 @@
-/* Buttons */
+/* All of the css to style navbar */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: $white;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: $bg-gray;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 
 .shadow { 
     -webkit-box-shadow: 0px 5px 15px -9px rgba(0,0,0,0.2);
@@ -8,7 +37,7 @@
 
 // Media queries to show and hide navigation when they overlap
 
-@media screen and (min-width: 1086px) {
+@media screen and (min-width: 1060px) {
 
 .collapsed-navigation {
 	display: none;
@@ -16,7 +45,7 @@
 
 }
 
-@media screen and (max-width: 1085px) {
+@media screen and (max-width: 1059px) {
 
 .full-navigation {
 	display: none;
