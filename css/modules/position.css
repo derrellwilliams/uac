@@ -1,41 +1,70 @@
-/* Basscss Position */
-.relative {
-  position: relative; }
+/*
+Error: Undefined variable: "$z1".
+        on line 12 of scss/modules/position.scss
 
-.absolute {
-  position: absolute; }
+7: .top-0    { top: 0 }
+8: .right-0  { right: 0 }
+9: .bottom-0 { bottom: 0 }
+10: .left-0   { left: 0 }
+11: 
+12: .z1 { z-index: $z1 }
+13: .z2 { z-index: $z2 }
+14: .z3 { z-index: $z3 }
+15: .z4 { z-index: $z4 }
 
-.fixed {
-  position: fixed; }
-
-.top-0 {
-  top: 0; }
-
-.right-0 {
-  right: 0; }
-
-.bottom-0 {
-  bottom: 0; }
-
-.left-0 {
-  left: 0; }
-
-.z1 {
-  z-index: var(--z1); }
-
-.z2 {
-  z-index: var(--z2); }
-
-.z3 {
-  z-index: var(--z3); }
-
-.z4 {
-  z-index: var(--z4); }
-
-:root {
-  --z1: 1;
-  --z2: 2;
-  --z3: 3;
-  --z4: 4; }
-
-/*# sourceMappingURL=position.css.map */
+Backtrace:
+scss/modules/position.scss:12
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/script/tree/node.rb:50:in `perform'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/stack.rb:79:in `block in with_base'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/stack.rb:135:in `with_frame'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/stack.rb:79:in `with_base'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:444:in `map'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/stack.rb:79:in `block in with_base'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/stack.rb:135:in `with_frame'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/stack.rb:79:in `with_base'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:161:in `visit'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/plugin/compiler.rb:320:in `block in watch'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
+/Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$z1\".\A         on line 12 of scss/modules/position.scss\A \A 7: .top-0    { top: 0 }\A 8: .right-0  { right: 0 }\A 9: .bottom-0 { bottom: 0 }\A 10: .left-0   { left: 0 }\A 11: \A 12: .z1 { z-index: $z1 }\A 13: .z2 { z-index: $z2 }\A 14: .z3 { z-index: $z3 }\A 15: .z4 { z-index: $z4 }"; }

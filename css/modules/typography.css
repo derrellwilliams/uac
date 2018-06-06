@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$red".
-        on line 70 of scss/modules/typography.scss
+        on line 74 of scss/modules/typography.scss
 
-65: .prose { line-height: 26px; }
-66: 
-67: .font-family-inherit { font-family: inherit }
-68: .font-size-inherit { font-size: inherit }
-69: .text-decoration-none { text-decoration: none }
-70: .red-underline { border-bottom: 4px solid $red;}
-71: 
-72: .bold    { font-weight: 700;}
-73: .regular { font-weight: normal }
-74: .italic  { font-style: italic }
-75: .caps    { text-transform: uppercase; letter-spacing: var(--caps-letter-spacing); }
+69: .prose { line-height: 26px; }
+70: 
+71: .font-family-inherit { font-family: inherit }
+72: .font-size-inherit { font-size: inherit }
+73: .text-decoration-none { text-decoration: none }
+74: .red-underline { border-bottom: 4px solid $red;}
+75: 
+76: .bold    { font-weight: 700;}
+77: .regular { font-weight: normal }
+78: .italic  { font-style: italic }
+79: .caps    { text-transform: uppercase; }
 
 Backtrace:
-scss/modules/typography.scss:70
+scss/modules/typography.scss:74
 /Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/script/tree/node.rb:50:in `perform'
 /Users/matthewwilliams/.rvm/gems/ruby-2.4.2/gems/sass-3.5.4/lib/sass/script/tree/list_literal.rb:75:in `block in _perform'
@@ -73,4 +73,4 @@ scss/modules/typography.scss:70
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$red\".\A         on line 70 of scss/modules/typography.scss\A \A 65: .prose { line-height: 26px; }\A 66: \A 67: .font-family-inherit { font-family: inherit }\A 68: .font-size-inherit { font-size: inherit }\A 69: .text-decoration-none { text-decoration: none }\A 70: .red-underline { border-bottom: 4px solid $red;}\A 71: \A 72: .bold    { font-weight: 700;}\A 73: .regular { font-weight: normal }\A 74: .italic  { font-style: italic }\A 75: .caps    { text-transform: uppercase; letter-spacing: var(--caps-letter-spacing); }"; }
+  content: "Error: Undefined variable: \"$red\".\A         on line 74 of scss/modules/typography.scss\A \A 69: .prose { line-height: 26px; }\A 70: \A 71: .font-family-inherit { font-family: inherit }\A 72: .font-size-inherit { font-size: inherit }\A 73: .text-decoration-none { text-decoration: none }\A 74: .red-underline { border-bottom: 4px solid $red;}\A 75: \A 76: .bold    { font-weight: 700;}\A 77: .regular { font-weight: normal }\A 78: .italic  { font-style: italic }\A 79: .caps    { text-transform: uppercase; }"; }

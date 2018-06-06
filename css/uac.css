@@ -2,6 +2,7 @@
 /* Colors */
 /* Borders */
 /* Spacing */
+/* Z Index */
 /* Colors */
 .text-black {
   color: #222222; }
@@ -63,50 +64,53 @@
   .full-navigation {
     display: none; } }
 /* Basscss Typography */
+html {
+  font-size: 14px; }
+
 h1, h2, h3, h4, h5, h6, p, li, .text_01, .text_02, .text_03, .text_04, .button, .primary-button, .secondary-button, .text-link {
   font-family: HelveticaNeue, Helvetica, Arial, sans-serif; }
 
 h1 {
-  font-size: 44px;
+  font-size: 3.14rem;
   font-weight: 700; }
 
 h2 {
-  font-size: 36px;
+  font-size: 2.57rem;
   font-weight: 700; }
 
 h3 {
-  font-size: 30px;
+  font-size: 2.14rem;
   font-weight: 700; }
 
 h4 {
-  font-size: 26px;
+  font-size: 1.86rem;
   font-weight: 700; }
 
 h5 {
-  font-size: 20px;
+  font-size: 1.43rem;
   font-weight: 700; }
 
 h6 {
-  font-size: 18px;
+  font-size: 1.29rem;
   font-weight: 700; }
 
 .text_01 {
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 20px; }
 
 .text_02 {
-  font-size: 16px;
+  font-size: 1.143rem;
   font-weight: 400;
   line-height: 24px; }
 
 .text_03 {
-  font-size: 18px;
+  font-size: 1.29rem;
   font-weight: 400;
   line-height: 24px; }
 
 .text-caption {
-  font-size: 12px;
+  font-size: .86rem;
   font-weight: 400;
   line-height: 22px; }
 
@@ -138,8 +142,7 @@ h6 {
   font-style: italic; }
 
 .caps {
-  text-transform: uppercase;
-  letter-spacing: var(--caps-letter-spacing); }
+  text-transform: uppercase; }
 
 .nowrap {
   white-space: nowrap; }
@@ -907,22 +910,16 @@ h6 {
   left: 0; }
 
 .z1 {
-  z-index: var(--z1); }
+  z-index: 1; }
 
 .z2 {
-  z-index: var(--z2); }
+  z-index: 2; }
 
 .z3 {
-  z-index: var(--z3); }
+  z-index: 3; }
 
 .z4 {
-  z-index: var(--z4); }
-
-:root {
-  --z1: 1;
-  --z2: 2;
-  --z3: 3;
-  --z4: 4; }
+  z-index: 4; }
 
 /* Basscss Border */
 .border {
