@@ -1,0 +1,15 @@
+/* Custom CSS for the Affliates banner */
+.lift-tickets-module {
+  background-image: url("../images/discount.jpg");
+  background-repeat: no-repeat, repeat;
+  background-size: cover; }
+
+.backcountry-module {
+  background-image: url("../images/backcountry.jpg");
+  background-repeat: no-repeat, repeat;
+  background-size: cover; }
+
+.image-gradient {
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.8), white); }
+
+/*# sourceMappingURL=affliates.css.map */

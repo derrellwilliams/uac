@@ -988,7 +988,7 @@ ul a {
   border: none;
   border-radius: 30px;
   color: #FFFFFF;
-  padding: 14px 20px;
+  padding: 12px 22px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -1000,7 +1000,7 @@ ul a {
   border: 2px solid black;
   border-radius: 30px;
   color: black;
-  padding: 14px 20px;
+  padding: 12px 22px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -1021,5 +1021,22 @@ ul a {
   font-weight: 700;
   text-decoration: none;
   font-size: 16px; }
+
+/* Icons */
+.icon {
+  padding-right: 3px; }
+
+.icon-dropdown {
+  padding-right: 8px;
+  background-position: 97% center;
+  background-size: 12px 12px;
+  background-repeat: no-repeat;
+  background-image: url("../images/icons/icon_dropdown.svg"); }
+
+.icon-menu {
+  background-position: 5% center;
+  background-size: 14px 14px;
+  background-repeat: no-repeat;
+  background-image: url("../images/icons/icon_menu.svg"); }
 
 /*# sourceMappingURL=uac.css.map */
