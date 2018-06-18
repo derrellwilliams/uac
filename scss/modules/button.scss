@@ -40,6 +40,12 @@ a {
     transition-duration: 0.3s;
 }
 
+.secondary-button:active, .primary-button:active {
+    box-shadow: 0 0 8px $gray;
+    webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+}
+
 .block-link {
     display: block;
 }
