@@ -1047,10 +1047,14 @@ a {
 .block-link {
   display: block; }
 
-.text-link {
+.big-text-link {
   font-weight: 700;
   text-decoration: none;
   font-size: 16px; }
+
+.text-link {
+  font-weight: 700;
+  text-decoration: underline; }
 
 /* Icons */
 .icon-dropdown {
