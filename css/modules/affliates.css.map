@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,yCAAyC;AAEzC,oBAAqB;EACpB,gBAAgB,EAAE,6BAA6B;EAC/C,iBAAiB,EAAE,iBAAiB;EACpC,eAAe,EAAE,KAAK;;AAGvB,mBAAoB;EACnB,gBAAgB,EAAE,gCAAgC;EAClD,iBAAiB,EAAE,iBAAiB;EACpC,eAAe,EAAE,KAAK;;AAIvB,eAAgB;EACf,UAAU,EAAE,4HAA2H",
+"mappings": "AAAA,gGAAgG;AAEhG,oBAAqB;EACpB,gBAAgB,EAAE,6BAA6B;EAC/C,iBAAiB,EAAE,iBAAiB;EACpC,eAAe,EAAE,KAAK;;AAGvB,mBAAoB;EACnB,gBAAgB,EAAE,gCAAgC;EAClD,iBAAiB,EAAE,iBAAiB;EACpC,eAAe,EAAE,KAAK;;AAGvB,eAAgB;EACf,UAAU,EAAE,4HAA2H",
 "sources": ["../../scss/modules/affliates.scss"],
 "names": [],
 "file": "affliates.css"
