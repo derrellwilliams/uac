@@ -68,7 +68,7 @@
 html {
   font-size: 14px; }
 
-h1, h2, h3, h4, h5, h6, p, li, .text_01, .text_02, .text_03, .text_04, .button, .primary-button, .secondary-button, .text-link {
+h1, h2, h3, h4, h5, h6, p, li, .text_01, .text_02, .text_03, .text_04, .button, .primary-button, .secondary-button, .inactive-secondary-button, .text-link {
   font-family: HelveticaNeue, Helvetica, Arial, sans-serif; }
 
 h1 {
@@ -928,7 +928,8 @@ h6 {
 
 .border-top {
   border-top-style: solid;
-  border-top-width: 1px; }
+  border-top-width: 1px;
+  border-color: #DCDCDC; }
 
 .border-right {
   border-right-style: solid;
@@ -936,7 +937,8 @@ h6 {
 
 .border-bottom {
   border-bottom-style: solid;
-  border-bottom-width: 1px; }
+  border-bottom-width: 1px;
+  border-color: #DCDCDC; }
 
 .border-left {
   border-left-style: solid;
@@ -1039,6 +1041,22 @@ a {
   webkit-transition-duration: 0.2s;
   /* Safari */
   transition-duration: 0.2s; }
+
+.inactive-secondary-button {
+  background-color: #ffffff;
+  border: 2px solid #999999;
+  border-radius: 40px;
+  color: #999999;
+  padding: 14px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer; }
+
+.inactive-secondary-button:hover {
+  cursor: default; }
 
 .block-link {
   display: block; }
